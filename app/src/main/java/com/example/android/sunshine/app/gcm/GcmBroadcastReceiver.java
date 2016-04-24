@@ -1,4 +1,4 @@
-package com.example.android.sunshine.app;
+package com.example.android.sunshine.app.gcm;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
+import com.example.android.sunshine.app.MainActivity;
+import com.example.android.sunshine.app.R;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
 /**
